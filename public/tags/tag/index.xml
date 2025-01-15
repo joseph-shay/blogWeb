@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tag on The journey</title>
-    <link>//localhost:1313/tags/tag/</link>
-    <description>Recent content in Tag on The journey</description>
+    <title>Tag on Joseph Shay</title>
+    <link>https://josephshay.pages.dev/tags/tag/</link>
+    <description>Recent content in Tag on Joseph Shay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2025 Joseph shay</copyright>
-    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/tag/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 Yousef Shaykholeslam</copyright>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://josephshay.pages.dev/tags/tag/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>new-article</title>
-      <link>//localhost:1313/posts/1736605390205-new-article/</link>
-      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
+      <title>hosting</title>
+      <link>https://josephshay.pages.dev/projects/1736944564113-hosting/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/1736605390205-new-article/</guid>
+      <guid>https://josephshay.pages.dev/projects/1736944564113-hosting/</guid>
       <description>&lt;p&gt;an example to get you started&lt;/p&gt;
 
 
@@ -43,7 +43,7 @@
 &lt;p&gt;This is a paragraph with &lt;strong&gt;bold&lt;/strong&gt; and &lt;em&gt;italic&lt;/em&gt; text.
 Check more at &lt;a href=&#34;https://blowfish.page/&#34; target=&#34;_blank&#34;&gt;Blowfish documentation&lt;/a&gt;
 undefined&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/1736605390205-new-article/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://josephshay.pages.dev/projects/1736944564113-hosting/featured.png" />
     </item>
     
   </channel>

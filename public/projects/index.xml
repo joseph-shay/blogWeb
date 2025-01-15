@@ -7,7 +7,44 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Yousef Shaykholeslam</copyright>
-    <lastBuildDate>Tue, 26 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://josephshay.pages.dev/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://josephshay.pages.dev/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>hosting</title>
+      <link>https://josephshay.pages.dev/projects/1736944564113-hosting/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://josephshay.pages.dev/projects/1736944564113-hosting/</guid>
+      <description>&lt;p&gt;an example to get you started&lt;/p&gt;
+
+
+&lt;h1 class=&#34;relative group&#34;&gt;This is a heading 
+    &lt;div id=&#34;this-is-a-heading&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+&lt;/h1&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;This is a subheading 
+    &lt;div id=&#34;this-is-a-subheading&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+&lt;/h2&gt;
+
+
+&lt;h3 class=&#34;relative group&#34;&gt;This is a subsubheading 
+    &lt;div id=&#34;this-is-a-subsubheading&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+&lt;/h3&gt;
+
+
+&lt;h4 class=&#34;relative group&#34;&gt;This is a subsubsubheading 
+    &lt;div id=&#34;this-is-a-subsubsubheading&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+&lt;/h4&gt;
+&lt;p&gt;This is a paragraph with &lt;strong&gt;bold&lt;/strong&gt; and &lt;em&gt;italic&lt;/em&gt; text.
+Check more at &lt;a href=&#34;https://blowfish.page/&#34; target=&#34;_blank&#34;&gt;Blowfish documentation&lt;/a&gt;
+undefined&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://josephshay.pages.dev/projects/1736944564113-hosting/featured.png" />
+    </item>
     
     <item>
       <title>Automating the Future</title>
