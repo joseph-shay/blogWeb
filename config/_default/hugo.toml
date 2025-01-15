@@ -1,6 +1,6 @@
 
 theme = "blowfish"
-baseURL = ""
+baseURL = "https://josephshay.pages.dev/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
