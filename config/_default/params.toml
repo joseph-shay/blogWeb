@@ -3,7 +3,6 @@ defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
-mainSections = [ "projects","posts" ,"rants"]
 smartTOC = true
 
 [header]
@@ -19,12 +18,12 @@ showScrollToTop = true
 layout = "background"
 homepageImage = "back.jpg"
 showRecent = true
-showRecentItems = "8"
+showRecentItems = "20"
 showMoreLink = true
 cardView = true
 cardViewScreenWidth = true
 layoutBackgroundBlur = true
-showMoreLinkDest = "posts"
+showMoreLinkDest = "/posts"
 
 [article]
 showDate = true

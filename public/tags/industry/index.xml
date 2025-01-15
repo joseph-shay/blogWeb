@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Industry on Joseph Shay</title>
-    <link>http://localhost:1313/tags/industry/</link>
+    <link>https://josephshay.pages.dev/tags/industry/</link>
     <description>Recent content in Industry on Joseph Shay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Yousef Shaykholeslam</copyright>
-    <lastBuildDate>Tue, 26 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/industry/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://josephshay.pages.dev/tags/industry/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Automating the Future</title>
-      <link>http://localhost:1313/projects/snowa/</link>
+      <link>https://josephshay.pages.dev/projects/snowa/</link>
       <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/snowa/</guid>
+      <guid>https://josephshay.pages.dev/projects/snowa/</guid>
       <description>My trip to SNOWA in order to automate some of it&amp;rsquo;s production</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/snowa/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://josephshay.pages.dev/projects/snowa/featured.jpg" />
     </item>
     
   </channel>
