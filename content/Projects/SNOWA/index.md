@@ -8,7 +8,7 @@ tags: ["automation", "factory", "robotics","robot", "industry", "industrial robo
 
 ## My Experience at [SNOWA](https://en.wikipedia.org/wiki/Snowa) Factories
 
-Today I had the incredible opportunity to visit the **SNOWA** factories to work on automating their factory lines. It was a fascinating experience that combined my passion for robotics, engineering, and innovation with real-world problem-solving.
+Today I had the incredible opportunity to visit the **SNOWA** factories to work on automating some of their factory lines. It was a fascinating experience that combined my passion for robotics, engineering, and innovation with real-world problem-solving.
 
 ## Understanding the Challenge
 
