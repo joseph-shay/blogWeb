@@ -3,38 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://josephshay.pages.dev/tags/example/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://josephshay.pages.dev/projects/1736944564113-hosting/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://josephshay.pages.dev/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://josephshay.pages.dev/projects/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://josephshay.pages.dev/tags/tag/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://josephshay.pages.dev/tags/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -76,6 +46,12 @@
   </url>
   <url>
     <loc>https://josephshay.pages.dev/series/</loc>
+    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://josephshay.pages.dev/tags/</loc>
     <lastmod>2025-01-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -130,6 +106,12 @@
   </url>
   <url>
     <loc>https://josephshay.pages.dev/tags/industry/</loc>
+    <lastmod>2024-11-26T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://josephshay.pages.dev/projects/</loc>
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
