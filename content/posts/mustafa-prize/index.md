@@ -25,13 +25,7 @@ This recognition has inspired me to push the boundaries of what’s possible and
 ## Gallery
 
 ### Overview
-{{< video
-  src="mp.mp4"
-  width="500"
->}}
+{{< youtube wnwfQpUkUmc >}}
 
 ### Interview with Me
-{{< video
-  src="me.mp4"
-  width="500"
->}}
+{{< youtube GImLxT7nPpk >}}
