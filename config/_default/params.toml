@@ -8,7 +8,7 @@ mainSections = [ "projects" , "posts" , "rants" ]
 
 
 [header]
-layout = "fixed"
+layout = "basic"
 
 [footer]
 showCopyright = true
@@ -20,10 +20,10 @@ showScrollToTop = true
 layout = "background"
 homepageImage = "back.jpg"
 showRecent = true
-showRecentItems = "20"
+showRecentItems = "16"
 showMoreLink = true
 cardView = true
-cardViewScreenWidth = true
+cardViewScreenWidth = false
 layoutBackgroundBlur = true
 showMoreLinkDest = "/projects"
 
