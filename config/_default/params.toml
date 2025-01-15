@@ -3,7 +3,7 @@ defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
-mainSections = [ "/projects" , "/posts" , "/rants"]
+mainSections = [ "projects" , "posts" , "rants"]
 
 
 [header]
