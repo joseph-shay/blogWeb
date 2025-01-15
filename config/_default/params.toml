@@ -22,7 +22,7 @@ showRecent = true
 showRecentItems = "8"
 showMoreLink = true
 cardView = true
-cardViewScreenWidth = true
+cardViewScreenWidth = false
 layoutBackgroundBlur = true
 showMoreLinkDest = "posts"
 
