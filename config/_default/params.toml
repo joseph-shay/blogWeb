@@ -5,7 +5,7 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 
-mainSections = ["projects", "Rants", "posts"]
+mainSections = ["Projects", "Rants", "posts"]
 
 [header]
   layout = "basic" 
@@ -34,9 +34,6 @@ mainSections = ["projects", "Rants", "posts"]
 
 [article]
   showDate = true
-  showViews = true
-  showLikes = true
-  showDateUpdated = true
   showAuthor = false
   showHero = false
   heroStyle = "background" # valid options: basic, big, background
