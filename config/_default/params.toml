@@ -52,7 +52,7 @@ layoutBackgroundBlur = true
 
 [list]
   #showHero = true
-  #heroStyle = "background" # valid options: basic, big, background
+  #heroStyle = "background" 
   showBreadcrumbs = false
   showSummary = false
   #showViews = false
