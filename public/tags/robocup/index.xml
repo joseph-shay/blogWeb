@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robocup on Joseph Shay</title>
+    <link>/tags/robocup/</link>
+    <description>Recent content in Robocup on Joseph Shay</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Yousef Shaykholeslam</copyright>
+    <lastBuildDate>Wed, 17 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/robocup/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2024 IranOpen RoboCup</title>
+      <link>/projects/iranopen-robocup2024/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/iranopen-robocup2024/</guid>
+      <description>The 2024 IranOpen RoboCup competition</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/projects/iranopen-robocup2024/featured.png" />
+    </item>
+    
+    <item>
+      <title>2023 IranOpen RoboCup</title>
+      <link>/projects/iranopen-robocup2023/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/iranopen-robocup2023/</guid>
+      <description>The 2023 IranOpen RoboCup competition</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/projects/iranopen-robocup2023/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

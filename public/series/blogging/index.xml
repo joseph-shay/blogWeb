@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogging on The journey</title>
+    <link>//localhost:1313/series/blogging/</link>
+    <description>Recent content in Blogging on The journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Joseph shay</copyright>
+    <lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/series/blogging/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>why Blog?</title>
+      <link>//localhost:1313/rants/1736594231951-why-make-a-blog-page/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/rants/1736594231951-why-make-a-blog-page/</guid>
+      <description>&lt;p&gt;For Me the thought of starting a blog wasn’t even on my radar. so Here’s what changed my mind and why I decided to give it a shot.&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;To Inspire Others 
+    &lt;div id=&#34;to-inspire-others&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;Blogs have an incredible potential to inspire. Let me break it down.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/rants/1736594231951-why-make-a-blog-page/featured.png" />
+    </item>
+    
+  </channel>
+</rss>
