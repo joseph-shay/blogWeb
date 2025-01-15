@@ -51,18 +51,17 @@ sharingLinks = [ "linkedin","telegram", "twitter", "whatsapp", "pinterest", "red
 layoutBackgroundBlur = true
 
 [list]
-showHero = true
-heroStyle = "background"
-layoutBackgroundHeaderSpace = false
-showBreadcrumbs = false
-showSummary = true
-showTableOfContents = false
-showCards = true
-groupByYear = true
-cardView = true
-cardViewScreenWidth = false
-layoutBackgroundBlur = true
-
+  #showHero = true
+  #heroStyle = "background" # valid options: basic, big, background
+  showBreadcrumbs = false
+  showSummary = false
+  #showViews = false
+  #showLikes = false
+  showTableOfContents = false
+  showCards = true
+  groupByYear = true
+  cardView = true
+  cardViewScreenWidth = false
 [sitemap]
 excludedKinds = []
 
