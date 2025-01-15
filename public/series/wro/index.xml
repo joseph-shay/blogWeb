@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WRO on Joseph Shay</title>
-    <link>/series/wro/</link>
+    <link>https://josephshay.pages.dev/series/wro/</link>
     <description>Recent content in WRO on Joseph Shay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Yousef Shaykholeslam</copyright>
-    <lastBuildDate>Fri, 09 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="/series/wro/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://josephshay.pages.dev/series/wro/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>2024 Iran WRO</title>
-      <link>/projects/wro2024/</link>
+      <link>https://josephshay.pages.dev/projects/wro2024/</link>
       <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>/projects/wro2024/</guid>
+      <guid>https://josephshay.pages.dev/projects/wro2024/</guid>
       <description>The 2024 WRO RoboSports Double Tennis</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/projects/wro2024/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://josephshay.pages.dev/projects/wro2024/featured.jpg" />
     </item>
     
     <item>
       <title>2023 Iran WRO</title>
-      <link>/projects/wro2023/</link>
+      <link>https://josephshay.pages.dev/projects/wro2023/</link>
       <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>/projects/wro2023/</guid>
+      <guid>https://josephshay.pages.dev/projects/wro2023/</guid>
       <description>The 2023 WRO RoboMission Senior</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/projects/wro2023/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://josephshay.pages.dev/projects/wro2023/featured.png" />
     </item>
     
   </channel>

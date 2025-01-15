@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prize on Joseph Shay</title>
-    <link>/tags/prize/</link>
+    <link>https://josephshay.pages.dev/tags/prize/</link>
     <description>Recent content in Prize on Joseph Shay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Yousef Shaykholeslam</copyright>
-    <lastBuildDate>Fri, 29 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/prize/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://josephshay.pages.dev/tags/prize/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>5th Mustafa Prize</title>
-      <link>/posts/mustafa-prize/</link>
+      <link>https://josephshay.pages.dev/posts/mustafa-prize/</link>
       <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>/posts/mustafa-prize/</guid>
+      <guid>https://josephshay.pages.dev/posts/mustafa-prize/</guid>
       <description>The 5th Mustafa Prize, aka the Nobel Prize of Islamic countries.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/posts/mustafa-prize/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://josephshay.pages.dev/posts/mustafa-prize/featured.jpg" />
     </item>
     
   </channel>
