@@ -6,8 +6,6 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 paginate = 20
 summaryLength = 30
-timeout = 60000  # 60 S
-
 
 buildDrafts = false
 buildFuture = false
