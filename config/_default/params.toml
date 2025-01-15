@@ -3,8 +3,7 @@ defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
-smartTOC = true
-mainSections = [ "projects" , "posts" , "rants" ]
+mainSections = [ "projects" ]
 
 
 [header]
