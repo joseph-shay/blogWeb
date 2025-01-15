@@ -4,6 +4,8 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 smartTOC = true
+mainSections = [ "projects" , "posts" , "rants" ]
+
 
 [header]
 layout = "fixed"
@@ -23,7 +25,8 @@ showMoreLink = true
 cardView = true
 cardViewScreenWidth = true
 layoutBackgroundBlur = true
-showMoreLinkDest = "/posts"
+showMoreLinkDest = "/projects"
+
 
 [article]
 showDate = true

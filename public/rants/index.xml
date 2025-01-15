@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rants on Joseph Shay</title>
-    <link>https://josephshay.pages.dev/rants/</link>
+    <link>http://localhost:1313/rants/</link>
     <description>Recent content in Rants on Joseph Shay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Yousef Shaykholeslam</copyright>
-    <lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://josephshay.pages.dev/rants/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/rants/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Why Blog?</title>
-      <link>https://josephshay.pages.dev/rants/why-make-a-blog-page/</link>
+      <link>http://localhost:1313/rants/why-make-a-blog-page/</link>
       <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://josephshay.pages.dev/rants/why-make-a-blog-page/</guid>
+      <guid>http://localhost:1313/rants/why-make-a-blog-page/</guid>
       <description>Here I explain why I started a blog and why you should consider it too.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://josephshay.pages.dev/rants/why-make-a-blog-page/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/rants/why-make-a-blog-page/featured.jpg" />
     </item>
     
   </channel>
