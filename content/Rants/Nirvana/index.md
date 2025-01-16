@@ -1,5 +1,5 @@
 ---
-title: "'One baby to another says "I'm lucky to've met you"'"
+title: "'One baby to another says I'm lucky to've met you'"
 date: 2025-01-16
 draft: false
 summary: "Nirvana: A Legacy of Grunge and Raw Emotion."
