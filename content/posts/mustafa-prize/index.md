@@ -3,7 +3,6 @@ title: "5th Mustafa Prize"
 date: 2023-09-29
 draft: false
 summary: "The 5th Mustafa Prize, aka the Nobel Prize of Islamic countries."
-tags: ["automation", "robotic", "robot", "prize"]
 ---
 
 ### A Defining Moment in Innovation

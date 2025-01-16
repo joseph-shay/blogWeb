@@ -3,7 +3,6 @@ title: "How to create a blog"
 date: 2025-01-11
 draft: false
 summary: "How to create a blog website"
-tags: ["blog", "question", "why", "tutorial"]
 series: ["Making a Blog"]
 series_order: 2
 ---
