@@ -3,7 +3,6 @@ title: "2024 Iran WRO"
 date: 2024-08-09
 draft: false
 summary: "The 2024 WRO RoboSports Double Tennis"
-tags: ["robot", "automation", "WRO"]
 series: ["WRO"]
 series_order: 2
 ---

@@ -3,7 +3,6 @@ title: "Automating the Future"
 date: 2024-11-26
 draft: false
 summary: "My trip to SNOWA in order to automate some of it's production"
-tags: ["automation", "factory", "robotics","robot", "industry", "industrial robots"]
 ---
 
 ## My Experience at [SNOWA](https://en.wikipedia.org/wiki/Snowa) Factories

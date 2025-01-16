@@ -3,7 +3,6 @@ title: "2023 Iran WRO"
 date: 2023-08-11
 draft: false
 summary: "The 2023 WRO RoboMission Senior"
-tags: ["robot", "automation", "WRO"]
 series: ["WRO"]
 series_order: 1
 ---

@@ -3,7 +3,6 @@ title: "Why Blog?"
 date: 2025-01-10
 draft: false
 summary: "Here I explain why I started a blog and why you should consider it too."
-tags: ["blog", "question", "why", "tutorial"]
 series: ["Making a Blog"]
 series_order: 1
 ---

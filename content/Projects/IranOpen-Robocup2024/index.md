@@ -3,7 +3,6 @@ title: "2024 IranOpen RoboCup"
 date: 2024-04-17
 draft: false
 summary: "The 2024 IranOpen RoboCup competition"
-tags: ["robot", "soccer", "robocup"]
 series: ["RoboCup"]
 series_order: 2
 ---
