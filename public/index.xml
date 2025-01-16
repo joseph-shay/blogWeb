@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Joseph Shay</title>
-    <link>http://localhost:1313/</link>
+    <link>https://josephshay.pages.dev/</link>
     <description>Recent content on Joseph Shay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Yousef Shaykholeslam</copyright>
-    <lastBuildDate>Thu, 16 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://josephshay.pages.dev/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>&#39;One baby to another said im lucky to met you&#39;</title>
-      <link>http://localhost:1313/rants/nirvana/</link>
+      <link>https://josephshay.pages.dev/rants/nirvana/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/rants/nirvana/</guid>
+      <guid>https://josephshay.pages.dev/rants/nirvana/</guid>
       <description>Nirvana: A Legacy of Grunge and Raw Emotion.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/rants/nirvana/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://josephshay.pages.dev/rants/nirvana/featured.jpg" />
     </item>
     
     <item>
       <title>My Resume/CV</title>
-      <link>http://localhost:1313/resume/</link>
+      <link>https://josephshay.pages.dev/resume/</link>
       <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/resume/</guid>
+      <guid>https://josephshay.pages.dev/resume/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;Profile 
     &lt;div id=&#34;profile&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -52,82 +52,82 @@ and sports.&lt;/p&gt;</description>
     
     <item>
       <title>How to create a blog</title>
-      <link>http://localhost:1313/posts/how-to-blog/</link>
+      <link>https://josephshay.pages.dev/posts/how-to-blog/</link>
       <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/how-to-blog/</guid>
+      <guid>https://josephshay.pages.dev/posts/how-to-blog/</guid>
       <description>How to create a blog website</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/how-to-blog/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://josephshay.pages.dev/posts/how-to-blog/featured.png" />
     </item>
     
     <item>
       <title>Why Blog?</title>
-      <link>http://localhost:1313/rants/why-make-a-blog-page/</link>
+      <link>https://josephshay.pages.dev/rants/why-make-a-blog-page/</link>
       <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/rants/why-make-a-blog-page/</guid>
+      <guid>https://josephshay.pages.dev/rants/why-make-a-blog-page/</guid>
       <description>Here I explain why I started a blog and why you should consider it too.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/rants/why-make-a-blog-page/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://josephshay.pages.dev/rants/why-make-a-blog-page/featured.jpg" />
     </item>
     
     <item>
       <title>Automating the Future</title>
-      <link>http://localhost:1313/projects/snowa/</link>
+      <link>https://josephshay.pages.dev/projects/snowa/</link>
       <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/snowa/</guid>
+      <guid>https://josephshay.pages.dev/projects/snowa/</guid>
       <description>My trip to SNOWA in order to automate some of it&amp;rsquo;s production</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/snowa/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://josephshay.pages.dev/projects/snowa/featured.jpg" />
     </item>
     
     <item>
       <title>2024 Iran WRO</title>
-      <link>http://localhost:1313/projects/wro2024/</link>
+      <link>https://josephshay.pages.dev/projects/wro2024/</link>
       <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/wro2024/</guid>
+      <guid>https://josephshay.pages.dev/projects/wro2024/</guid>
       <description>The 2024 WRO RoboSports Double Tennis</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/wro2024/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://josephshay.pages.dev/projects/wro2024/featured.jpg" />
     </item>
     
     <item>
       <title>2024 IranOpen RoboCup</title>
-      <link>http://localhost:1313/projects/iranopen-robocup2024/</link>
+      <link>https://josephshay.pages.dev/projects/iranopen-robocup2024/</link>
       <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/iranopen-robocup2024/</guid>
+      <guid>https://josephshay.pages.dev/projects/iranopen-robocup2024/</guid>
       <description>The 2024 IranOpen RoboCup competition</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/iranopen-robocup2024/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://josephshay.pages.dev/projects/iranopen-robocup2024/featured.png" />
     </item>
     
     <item>
       <title>5th Mustafa Prize</title>
-      <link>http://localhost:1313/posts/mustafa-prize/</link>
+      <link>https://josephshay.pages.dev/posts/mustafa-prize/</link>
       <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/mustafa-prize/</guid>
+      <guid>https://josephshay.pages.dev/posts/mustafa-prize/</guid>
       <description>The 5th Mustafa Prize, aka the Nobel Prize of Islamic countries.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/mustafa-prize/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://josephshay.pages.dev/posts/mustafa-prize/featured.jpg" />
     </item>
     
     <item>
       <title>2023 Iran WRO</title>
-      <link>http://localhost:1313/projects/wro2023/</link>
+      <link>https://josephshay.pages.dev/projects/wro2023/</link>
       <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/wro2023/</guid>
+      <guid>https://josephshay.pages.dev/projects/wro2023/</guid>
       <description>The 2023 WRO RoboMission Senior</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/wro2023/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://josephshay.pages.dev/projects/wro2023/featured.png" />
     </item>
     
     <item>
       <title>2023 IranOpen RoboCup</title>
-      <link>http://localhost:1313/projects/iranopen-robocup2023/</link>
+      <link>https://josephshay.pages.dev/projects/iranopen-robocup2023/</link>
       <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/iranopen-robocup2023/</guid>
+      <guid>https://josephshay.pages.dev/projects/iranopen-robocup2023/</guid>
       <description>The 2023 IranOpen RoboCup competition</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/iranopen-robocup2023/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://josephshay.pages.dev/projects/iranopen-robocup2023/featured.jpg" />
     </item>
     
   </channel>

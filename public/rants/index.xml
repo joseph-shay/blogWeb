@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rants on Joseph Shay</title>
-    <link>http://localhost:1313/rants/</link>
+    <link>https://josephshay.pages.dev/rants/</link>
     <description>Recent content in Rants on Joseph Shay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Yousef Shaykholeslam</copyright>
-    <lastBuildDate>Thu, 16 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/rants/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://josephshay.pages.dev/rants/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>&#39;One baby to another said im lucky to met you&#39;</title>
-      <link>http://localhost:1313/rants/nirvana/</link>
+      <link>https://josephshay.pages.dev/rants/nirvana/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/rants/nirvana/</guid>
+      <guid>https://josephshay.pages.dev/rants/nirvana/</guid>
       <description>Nirvana: A Legacy of Grunge and Raw Emotion.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/rants/nirvana/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://josephshay.pages.dev/rants/nirvana/featured.jpg" />
     </item>
     
     <item>
       <title>Why Blog?</title>
-      <link>http://localhost:1313/rants/why-make-a-blog-page/</link>
+      <link>https://josephshay.pages.dev/rants/why-make-a-blog-page/</link>
       <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/rants/why-make-a-blog-page/</guid>
+      <guid>https://josephshay.pages.dev/rants/why-make-a-blog-page/</guid>
       <description>Here I explain why I started a blog and why you should consider it too.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/rants/why-make-a-blog-page/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://josephshay.pages.dev/rants/why-make-a-blog-page/featured.jpg" />
     </item>
     
   </channel>

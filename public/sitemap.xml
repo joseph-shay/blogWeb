@@ -3,174 +3,174 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/rants/nirvana/</loc>
+    <loc>https://josephshay.pages.dev/rants/nirvana/</loc>
     <lastmod>2025-01-16T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://josephshay.pages.dev/</loc>
     <lastmod>2025-01-16T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/rants/</loc>
+    <loc>https://josephshay.pages.dev/rants/</loc>
     <lastmod>2025-01-16T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/resume/</loc>
+    <loc>https://josephshay.pages.dev/resume/</loc>
     <lastmod>2025-01-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/blog/</loc>
+    <loc>https://josephshay.pages.dev/tags/blog/</loc>
     <lastmod>2025-01-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/how-to-blog/</loc>
+    <loc>https://josephshay.pages.dev/posts/how-to-blog/</loc>
     <lastmod>2025-01-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/series/making-a-blog/</loc>
+    <loc>https://josephshay.pages.dev/series/making-a-blog/</loc>
     <lastmod>2025-01-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://josephshay.pages.dev/posts/</loc>
     <lastmod>2025-01-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/question/</loc>
+    <loc>https://josephshay.pages.dev/tags/question/</loc>
     <lastmod>2025-01-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://josephshay.pages.dev/series/</loc>
     <lastmod>2025-01-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://josephshay.pages.dev/tags/</loc>
     <lastmod>2025-01-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/tutorial/</loc>
+    <loc>https://josephshay.pages.dev/tags/tutorial/</loc>
     <lastmod>2025-01-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/why/</loc>
+    <loc>https://josephshay.pages.dev/tags/why/</loc>
     <lastmod>2025-01-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/rants/why-make-a-blog-page/</loc>
+    <loc>https://josephshay.pages.dev/rants/why-make-a-blog-page/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/snowa/</loc>
+    <loc>https://josephshay.pages.dev/projects/snowa/</loc>
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://josephshay.pages.dev/projects/</loc>
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/wro2024/</loc>
+    <loc>https://josephshay.pages.dev/projects/wro2024/</loc>
     <lastmod>2024-08-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/series/wro/</loc>
+    <loc>https://josephshay.pages.dev/series/wro/</loc>
     <lastmod>2024-08-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/iranopen-robocup2024/</loc>
+    <loc>https://josephshay.pages.dev/projects/iranopen-robocup2024/</loc>
     <lastmod>2024-04-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/series/robocup/</loc>
+    <loc>https://josephshay.pages.dev/series/robocup/</loc>
     <lastmod>2024-04-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/mustafa-prize/</loc>
+    <loc>https://josephshay.pages.dev/posts/mustafa-prize/</loc>
     <lastmod>2023-09-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/automation/</loc>
+    <loc>https://josephshay.pages.dev/tags/automation/</loc>
     <lastmod>2023-09-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/prize/</loc>
+    <loc>https://josephshay.pages.dev/tags/prize/</loc>
     <lastmod>2023-09-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/robot/</loc>
+    <loc>https://josephshay.pages.dev/tags/robot/</loc>
     <lastmod>2023-09-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/robotic/</loc>
+    <loc>https://josephshay.pages.dev/tags/robotic/</loc>
     <lastmod>2023-09-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/wro2023/</loc>
+    <loc>https://josephshay.pages.dev/projects/wro2023/</loc>
     <lastmod>2023-08-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/iranopen-robocup2023/</loc>
+    <loc>https://josephshay.pages.dev/projects/iranopen-robocup2023/</loc>
     <lastmod>2023-04-25T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>https://josephshay.pages.dev/authors/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://josephshay.pages.dev/categories/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
