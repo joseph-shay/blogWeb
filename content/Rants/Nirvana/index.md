@@ -9,7 +9,6 @@ Nirvana wasn’t just a band—it was a cultural phenomenon that shook the music
 
 # Music
 I’ll start with the musics so that you can listen to them while reading.
-
 ## Studio Albums
 
 ### First (Bleach)
