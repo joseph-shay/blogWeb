@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Yousef Shaykholeslam</copyright>
-    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://josephshay.pages.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://josephshay.pages.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>90 Degree turns with BNO055</title>
+      <link>https://josephshay.pages.dev/posts/turn-90-degrees-with-bno055/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://josephshay.pages.dev/posts/turn-90-degrees-with-bno055/</guid>
+      <description>The algorithm to turn your robot 90 degrees using the BNO055 Gyroscope.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://josephshay.pages.dev/posts/turn-90-degrees-with-bno055/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Convert Words to Numbers in Python</title>
+      <link>https://josephshay.pages.dev/posts/string-to-number-python/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://josephshay.pages.dev/posts/string-to-number-python/</guid>
+      <description>How to turn string into a Number with python and word2number.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://josephshay.pages.dev/posts/string-to-number-python/featured.jpg" />
+    </item>
     
     <item>
       <title>How to create a blog</title>

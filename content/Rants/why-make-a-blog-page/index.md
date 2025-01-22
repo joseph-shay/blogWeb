@@ -9,6 +9,8 @@ series_order: 1
 
 For me, the thought of starting a blog wasn’t even on my radar. But here's what changed my mind and why I decided to give it a shot.
 
+---
+
 ## To Inspire Others
 Blogs have incredible potential to inspire. Let me break it down.
 
@@ -18,8 +20,12 @@ I’ve felt this firsthand. At my first RoboCup in 2023, I was amazed by the ext
 
 You don’t always need direct contact with your role models to be inspired by them. The internet is filled with incredible resources.
 
+---
+
 ## For Recognition
 A blog can serve as a portfolio—a way to showcase my work for research, career opportunities, or even just to share with friends and family. It’s a window into what I’m building and why it matters.
+
+---
 
 ## To Share Knowledge
 During my time building competition robots, I spent countless hours poring over other teams’ blogs, CAD designs, and videos. Those resources were invaluable, helping me learn and grow.
@@ -33,6 +39,8 @@ Someone once said:
 {{< /lead >}}
 
 And that stuck with me.
+
+---
 
 ## Passing it On
 Others' websites have helped me a lot, so making my own blog is an attempt to pass it on. Consider making a blog yourself! I’ve written a blog post on how to [get started](/posts/How-to-blog/).

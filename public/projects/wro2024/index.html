@@ -831,15 +831,14 @@ Each match of the challenge involves two teams of students. Each team prepares t
     
 </h3>
 <p>When the robot started, it would perform a scan to determine the position of the <em>purple ball</em>. Based on the position, a set of instructions would be executed to push the <em>orange ball</em> off our side while keeping the <em>purple ball</em>. After that, the robot would switch into <em>camera mode</em>, where the camera would create an <strong>(X,Y)</strong> plane. Based on the position of the <em>orange ball</em>, the following actions would be taken:</p>
-<pre tabindex="0"><code>if (orange_y_coord &gt; 50) {
-    LEFT(90);
-  } else if (orange_y_coord &lt; -50) {
-    RIGHT(90);
-  } else if (orange_y_coord &gt;= -50 &amp;&amp; orange_y_coord &lt;= 50 &amp;&amp; orange_y_coord !=0) {
-    FORWARDKICK();
-  }</code></pre>
-
-
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C" data-lang="C"><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="n">orange_y_coord</span> <span class="o">&gt;</span> <span class="mi">50</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">LEFT</span><span class="p">(</span><span class="mi">90</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">orange_y_coord</span> <span class="o">&lt;</span> <span class="o">-</span><span class="mi">50</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">RIGHT</span><span class="p">(</span><span class="mi">90</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">orange_y_coord</span> <span class="o">&gt;=</span> <span class="o">-</span><span class="mi">50</span> <span class="o">&amp;&amp;</span> <span class="n">orange_y_coord</span> <span class="o">&lt;=</span> <span class="mi">50</span> <span class="o">&amp;&amp;</span> <span class="n">orange_y_coord</span> <span class="o">!=</span><span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">FORWARDKICK</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span></code></pre></div>
 
 <h2 class="relative group">Gallery 
     <div id="gallery" class="anchor"></div>
@@ -864,7 +863,7 @@ Each match of the challenge involves two teams of students. Each team prepares t
 </h3>
 
 
-<div id="gallery-3be84dbeba1ed04994f5ea1abcbcb466" class="gallery">
+<div id="gallery-3eefc9cab31250ea35aa4f36e8a42249" class="gallery">
   
   <img src="upme.jpg" class="grid-w33" />
   <img src="memedal.jpg" class="grid-w33" />

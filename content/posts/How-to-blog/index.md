@@ -9,6 +9,8 @@ series_order: 2
 
 In a previous [post](/rants/why-make-a-blog-page/), I explained why I created a blog. Here I will explain how.
 
+---
+
 ## Choosing a Website Builder
 There are a lot of website builders out there, but the popular options are **Blogger, Squarespace, WordPress, and Wix**. These are relatively simple to set up and good options if you don’t want to debug or write code.
 
@@ -23,6 +25,8 @@ What I used instead was [Hugo](https://gohugo.io/), an open-source website build
 I used an open-source website builder because, although it requires more programming setup, it looks neat. I didn’t have to write any HTML or CSS. That’s all handled by the theme. The setup was mostly reading documentation, adding features, and debugging random problems.
 
 You can also build a website from scratch using React or other web development tools. I was too lazy to do this, but if you are interested in web development, that might be fun.
+
+---
 
 ## Publishing
 

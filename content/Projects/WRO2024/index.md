@@ -41,7 +41,16 @@ The kicker is made like a catapult, using spinning force to pick the ball up and
 ### Algorithm  
 When the robot started, it would perform a scan to determine the position of the *purple ball*. Based on the position, a set of instructions would be executed to push the *orange ball* off our side while keeping the *purple ball*. After that, the robot would switch into *camera mode*, where the camera would create an **(X,Y)** plane. Based on the position of the *orange ball*, the following actions would be taken:
 
-{{< get-content algoCODEARD.c >}}
+```C
+if (orange_y_coord > 50) {
+    LEFT(90);
+  } else if (orange_y_coord < -50) {
+    RIGHT(90);
+  } else if (orange_y_coord >= -50 && orange_y_coord <= 50 && orange_y_coord !=0) {
+    FORWARDKICK();
+  }
+```
+
 
 ## Gallery
 

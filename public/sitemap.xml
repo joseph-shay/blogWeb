@@ -3,13 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://josephshay.pages.dev/rants/nirvana/</loc>
-    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+    <loc>https://josephshay.pages.dev/posts/turn-90-degrees-with-bno055/</loc>
+    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://josephshay.pages.dev/posts/string-to-number-python/</loc>
+    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://josephshay.pages.dev/</loc>
+    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://josephshay.pages.dev/posts/</loc>
+    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://josephshay.pages.dev/rants/nirvana/</loc>
     <lastmod>2025-01-16T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -34,12 +52,6 @@
   </url>
   <url>
     <loc>https://josephshay.pages.dev/series/making-a-blog/</loc>
-    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://josephshay.pages.dev/posts/</loc>
     <lastmod>2025-01-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

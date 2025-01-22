@@ -10,6 +10,8 @@ series_order: 2
 ## Intro
 In this year's RoboCup, we took a different approach and chose Rescue instead of Soccer. This year we competed in RCJ **Rescue Maze**, but next year we are planning to compete in **Rescue Line**.
 
+---
+
 ## Specs
 
 ### Micro
@@ -34,6 +36,8 @@ In this algorithm, the maze is modeled as a graph, and the robot searches for ve
 
 ### Rescue Kit Dropper
 The kit dropper in this robot is a small and compact contraption inspired by a revolver.
+
+---
 
 ## Gallery
 

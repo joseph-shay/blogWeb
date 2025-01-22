@@ -24,6 +24,8 @@ more. Apart from my technical ability I am a
 quick learner and I also posses talents in music
 and sports.
 
+---
+
 ## Education
 
 {{< timeline >}}
@@ -35,11 +37,19 @@ and sports.
 
 {{< /timeline >}}
 
+---
+
 ## Work experience 
 I have worked in places such as **freelance** and **fiverr** as mechanic and electronic designers.
 In addition to that I have worked with [**SNOWA**](http://localhost:1313/projects/snowa/
 ) in automating some of the production line.
+
+---
+
 ## Abilities and skills 
+
+---
+
 ### Design various devices such as :
 * RoboCup robots
 * WRO robots
@@ -56,6 +66,9 @@ In addition to that I have worked with [**SNOWA**](http://localhost:1313/project
 * 9 Axis-arm
 and more
 
+---
+
+
 ### Interpersonal abilities :
 * Problem solving
 * Good in teamwork
@@ -67,6 +80,8 @@ and more
 * Good at communicating
 * Good at time management
 * Great attention to details
+
+---
 
 ### Computer abilities :
 * VSC
@@ -86,6 +101,8 @@ and more
 * Cura
 * Internet surfing
 
+---
+
 ### Languages :
 * English (native)
 * Farsi (native)
@@ -94,11 +111,15 @@ and more
 * Italian (learning)
 * Slovenian (lerning)
 
+---
+
 ### Arts & music :
 * Electric Guitar 
 * Violin
 * Drums
 * Piano
+
+---
 
 ### Athletic skills :
 * Volleyball
@@ -106,6 +127,8 @@ and more
 * Tennis
 * Ping Pong (Table Tennis)
 * Basketball 
+
+---
 
 ## Coding skills :
 {{< chart >}}
@@ -118,6 +141,8 @@ data: {
   }]
 }
 {{< /chart >}}
+
+---
 
 ## Study Skills Audit result :
 <img class="thumbnailshadow" src="audit.png">

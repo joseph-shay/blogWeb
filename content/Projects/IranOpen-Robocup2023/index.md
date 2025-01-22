@@ -10,9 +10,13 @@ series_order: 1
 ## Intro
 Back in 2023, I competed in the IranOpen 2023 RoboCup in *Tehran* for the RCJ Lightweight Soccer league with my team **After X**. We achieved **First Place** and represented Iran in the Bordeaux competition.
 
+---
+
 ## Our Robot
 We had two robots with the same mechanical and electrical design but different code (one as goalkeeper and the other as an attacker).
 <img class="thumbnailshadow" src="featured.jpg">
+
+---
 
 ## Specs
 
@@ -38,6 +42,8 @@ If the robot went out of the outline (white line around the field), it would be 
 
 ### Goal Detection
 The attacker robot had one **OpenMV Cam H7** and detected the goal so that when we had the ball in our robot's mouth, it would go toward the goal.
+
+---
 
 ## Gallery
 {{< button href="https://fazilirc.ir/news/afterx/" target="https://fazilirc.ir/news/afterx/" >}}
