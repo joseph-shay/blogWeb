@@ -113,88 +113,9 @@ This implementation ensures smooth and precise 90-degree turns, making it ideal 
 
 
 
-## Code Example 
+## Function 
 
 ```C
-#include <Arduino.h>
-#include <U8g2lib.h>
-#include <Adafruit_Sensor.h>
-#include <Adafruit_BNO055.h>
-#include <utility/imumaths.h>
-#include <INST.h>
-#include <SCS.h>
-#include <SCSCL.h>
-#include <SCSerial.h>
-#include <SCServo.h>
-#include <SMS_STS.h>
-
-// Initialize the U8g2 library for an SSD1306 I2C OLED display
-U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE);
-
-// Initialize the BNO055 sensor
-Adafruit_BNO055 bno = Adafruit_BNO055(55, 0x28);
-
-#define ServoID1 1
-#define ServoID2 2
-#define ServoID3 3
-#define ServoID4 4
-
-SMS_STS sts3032;
-
-// Define pin numbers
-const int PIN_RIGHT = 32; // Digital pin for right switch
-const int PIN_LEFT = 30;  // Digital pin for left switch
-const int PIN_BUZZER = 34; // Digital pin for buzzer
-
-const int speed = 1000;
-const int MAX_SPEED = 1500;  // Maximum motor speed
-const int MIN_SPEED = 300;   // Minimum motor speed
-const int SLOWDOWN_RANGE = 45; // Degrees before the target to start slowing down
-
-void setup() {
-  // Initialize serial communication for the servo
-  Serial2.begin(1000000);
-  sts3032.pSerial = &Serial2;
-
-  // Set pins as inputs with internal pull-up resistors
-  pinMode(PIN_RIGHT, INPUT_PULLUP);
-  pinMode(PIN_LEFT, INPUT_PULLUP);
-
-  // Set buzzer pin as output
-  pinMode(PIN_BUZZER, OUTPUT);
-  digitalWrite(PIN_BUZZER, LOW); // Ensure buzzer is off initially
-
-  // Initialize the OLED display
-  u8g2.begin();
-
-  // Initialize the BNO055 sensor
-  if (!bno.begin()) {
-    while (1) {
-      digitalWrite(PIN_BUZZER, HIGH);
-      delay(100);
-      digitalWrite(PIN_BUZZER, LOW);
-      delay(100);
-    }
-  }
-  bno.setExtCrystalUse(true);
-
-  // Configure servos
-  for (int id = ServoID1; id <= ServoID4; id++) {
-    sts3032.unLockEprom(id);
-    sts3032.EnableTorque(id, 1);
-    sts3032.WheelMode(id);
-    sts3032.writeByte(id, SMS_STS_MODE, 1);
-    sts3032.LockEprom(id);
-  }
-}
-
-void controlServos(int s1, int s2, int s3, int s4) {
-  sts3032.WriteSpe(ServoID1, s1);
-  sts3032.WriteSpe(ServoID2, s2);
-  sts3032.WriteSpe(ServoID3, s3);
-  sts3032.WriteSpe(ServoID4, s4);
-}
-
 void turnToAngle(float targetAngle, bool isRightTurn) {
     sensors_event_t event;
     bno.getEvent(&event);
@@ -230,13 +151,5 @@ void turnToAngle(float targetAngle, bool isRightTurn) {
     for (int id = ServoID1; id <= ServoID4; id++) {
         sts3032.EnableTorque(id, 0); // Disable torque
     }
-}
-
-
-void loop() {
-  delay(1000);
-  turnToAngle(90, false); // Turn left
-  delay(100);
- 
 }
 ```

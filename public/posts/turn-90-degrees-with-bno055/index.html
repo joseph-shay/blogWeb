@@ -106,7 +106,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "997"
+    "wordCount": "739"
   }]
   </script>
 
@@ -602,7 +602,7 @@
     </li>
     <li><a href="#why-this-method-works">Why This Method Works</a></li>
     <li><a href="#key-parameters">Key Parameters</a></li>
-    <li><a href="#code-example">Code Example</a></li>
+    <li><a href="#function">Function</a></li>
   </ul>
 </nav>
   </div>
@@ -629,7 +629,7 @@
     </li>
     <li><a href="#why-this-method-works">Why This Method Works</a></li>
     <li><a href="#key-parameters">Key Parameters</a></li>
-    <li><a href="#code-example">Code Example</a></li>
+    <li><a href="#function">Function</a></li>
   </ul>
 </nav>
   </div>
@@ -832,90 +832,11 @@
 <hr>
 
 
-<h2 class="relative group">Code Example 
-    <div id="code-example" class="anchor"></div>
+<h2 class="relative group">Function 
+    <div id="function" class="anchor"></div>
     
 </h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C" data-lang="C"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;Arduino.h&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;U8g2lib.h&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;Adafruit_Sensor.h&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;Adafruit_BNO055.h&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;utility/imumaths.h&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;INST.h&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;SCS.h&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;SCSCL.h&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;SCSerial.h&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;SCServo.h&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;SMS_STS.h&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
-</span></span><span class="line"><span class="cl"><span class="c1">// Initialize the U8g2 library for an SSD1306 I2C OLED display
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">U8G2_SSD1306_128X64_NONAME_F_HW_I2C</span> <span class="nf">u8g2</span><span class="p">(</span><span class="n">U8G2_R0</span><span class="p">,</span> <span class="cm">/* reset=*/</span> <span class="n">U8X8_PIN_NONE</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// Initialize the BNO055 sensor
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">Adafruit_BNO055</span> <span class="n">bno</span> <span class="o">=</span> <span class="nf">Adafruit_BNO055</span><span class="p">(</span><span class="mi">55</span><span class="p">,</span> <span class="mh">0x28</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="cp">#define ServoID1 1
-</span></span></span><span class="line"><span class="cl"><span class="cp">#define ServoID2 2
-</span></span></span><span class="line"><span class="cl"><span class="cp">#define ServoID3 3
-</span></span></span><span class="line"><span class="cl"><span class="cp">#define ServoID4 4
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
-</span></span><span class="line"><span class="cl"><span class="n">SMS_STS</span> <span class="n">sts3032</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// Define pin numbers
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">const</span> <span class="kt">int</span> <span class="n">PIN_RIGHT</span> <span class="o">=</span> <span class="mi">32</span><span class="p">;</span> <span class="c1">// Digital pin for right switch
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">const</span> <span class="kt">int</span> <span class="n">PIN_LEFT</span> <span class="o">=</span> <span class="mi">30</span><span class="p">;</span>  <span class="c1">// Digital pin for left switch
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">const</span> <span class="kt">int</span> <span class="n">PIN_BUZZER</span> <span class="o">=</span> <span class="mi">34</span><span class="p">;</span> <span class="c1">// Digital pin for buzzer
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
-</span></span><span class="line"><span class="cl"><span class="k">const</span> <span class="kt">int</span> <span class="n">speed</span> <span class="o">=</span> <span class="mi">1000</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="k">const</span> <span class="kt">int</span> <span class="n">MAX_SPEED</span> <span class="o">=</span> <span class="mi">1500</span><span class="p">;</span>  <span class="c1">// Maximum motor speed
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">const</span> <span class="kt">int</span> <span class="n">MIN_SPEED</span> <span class="o">=</span> <span class="mi">300</span><span class="p">;</span>   <span class="c1">// Minimum motor speed
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">const</span> <span class="kt">int</span> <span class="n">SLOWDOWN_RANGE</span> <span class="o">=</span> <span class="mi">45</span><span class="p">;</span> <span class="c1">// Degrees before the target to start slowing down
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
-</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="c1">// Initialize serial communication for the servo
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">Serial2</span><span class="p">.</span><span class="nf">begin</span><span class="p">(</span><span class="mi">1000000</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">  <span class="n">sts3032</span><span class="p">.</span><span class="n">pSerial</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">Serial2</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="c1">// Set pins as inputs with internal pull-up resistors
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nf">pinMode</span><span class="p">(</span><span class="n">PIN_RIGHT</span><span class="p">,</span> <span class="n">INPUT_PULLUP</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">  <span class="nf">pinMode</span><span class="p">(</span><span class="n">PIN_LEFT</span><span class="p">,</span> <span class="n">INPUT_PULLUP</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="c1">// Set buzzer pin as output
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nf">pinMode</span><span class="p">(</span><span class="n">PIN_BUZZER</span><span class="p">,</span> <span class="n">OUTPUT</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">  <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">PIN_BUZZER</span><span class="p">,</span> <span class="n">LOW</span><span class="p">);</span> <span class="c1">// Ensure buzzer is off initially
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
-</span></span><span class="line"><span class="cl">  <span class="c1">// Initialize the OLED display
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">u8g2</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="c1">// Initialize the BNO055 sensor
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">bno</span><span class="p">.</span><span class="nf">begin</span><span class="p">())</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">      <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">PIN_BUZZER</span><span class="p">,</span> <span class="n">HIGH</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">      <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">      <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">PIN_BUZZER</span><span class="p">,</span> <span class="n">LOW</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">      <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">  <span class="p">}</span>
-</span></span><span class="line"><span class="cl">  <span class="n">bno</span><span class="p">.</span><span class="nf">setExtCrystalUse</span><span class="p">(</span><span class="nb">true</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="c1">// Configure servos
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">id</span> <span class="o">=</span> <span class="n">ServoID1</span><span class="p">;</span> <span class="n">id</span> <span class="o">&lt;=</span> <span class="n">ServoID4</span><span class="p">;</span> <span class="n">id</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">sts3032</span><span class="p">.</span><span class="nf">unLockEprom</span><span class="p">(</span><span class="n">id</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="n">sts3032</span><span class="p">.</span><span class="nf">EnableTorque</span><span class="p">(</span><span class="n">id</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="n">sts3032</span><span class="p">.</span><span class="nf">WheelMode</span><span class="p">(</span><span class="n">id</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="n">sts3032</span><span class="p">.</span><span class="nf">writeByte</span><span class="p">(</span><span class="n">id</span><span class="p">,</span> <span class="n">SMS_STS_MODE</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="n">sts3032</span><span class="p">.</span><span class="nf">LockEprom</span><span class="p">(</span><span class="n">id</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">  <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">controlServos</span><span class="p">(</span><span class="kt">int</span> <span class="n">s1</span><span class="p">,</span> <span class="kt">int</span> <span class="n">s2</span><span class="p">,</span> <span class="kt">int</span> <span class="n">s3</span><span class="p">,</span> <span class="kt">int</span> <span class="n">s4</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="n">sts3032</span><span class="p">.</span><span class="nf">WriteSpe</span><span class="p">(</span><span class="n">ServoID1</span><span class="p">,</span> <span class="n">s1</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">  <span class="n">sts3032</span><span class="p">.</span><span class="nf">WriteSpe</span><span class="p">(</span><span class="n">ServoID2</span><span class="p">,</span> <span class="n">s2</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">  <span class="n">sts3032</span><span class="p">.</span><span class="nf">WriteSpe</span><span class="p">(</span><span class="n">ServoID3</span><span class="p">,</span> <span class="n">s3</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">  <span class="n">sts3032</span><span class="p">.</span><span class="nf">WriteSpe</span><span class="p">(</span><span class="n">ServoID4</span><span class="p">,</span> <span class="n">s4</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">turnToAngle</span><span class="p">(</span><span class="kt">float</span> <span class="n">targetAngle</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">isRightTurn</span><span class="p">)</span> <span class="p">{</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C" data-lang="C"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">turnToAngle</span><span class="p">(</span><span class="kt">float</span> <span class="n">targetAngle</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">isRightTurn</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="kt">sensors_event_t</span> <span class="n">event</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="n">bno</span><span class="p">.</span><span class="nf">getEvent</span><span class="p">(</span><span class="o">&amp;</span><span class="n">event</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">
@@ -950,14 +871,6 @@
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">id</span> <span class="o">=</span> <span class="n">ServoID1</span><span class="p">;</span> <span class="n">id</span> <span class="o">&lt;=</span> <span class="n">ServoID4</span><span class="p">;</span> <span class="n">id</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="n">sts3032</span><span class="p">.</span><span class="nf">EnableTorque</span><span class="p">(</span><span class="n">id</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span> <span class="c1">// Disable torque
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">  <span class="nf">turnToAngle</span><span class="p">(</span><span class="mi">90</span><span class="p">,</span> <span class="nb">false</span><span class="p">);</span> <span class="c1">// Turn left
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"> 
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div>
           
