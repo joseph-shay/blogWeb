@@ -2,7 +2,7 @@
 title: "Automating the Future"
 date: 2024-11-26
 draft: false
-summary: "My trip to SNOWA in order to automate some of it's production"
+summary: "My trip to SNOWA in order to automate some of the production"
 ---
 
 ## My Experience at [SNOWA](https://en.wikipedia.org/wiki/Snowa) Factories

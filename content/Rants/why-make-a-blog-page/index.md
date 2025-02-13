@@ -43,4 +43,4 @@ And that stuck with me.
 ---
 
 ## Passing it On
-Others' websites have helped me a lot, so making my own blog is an attempt to pass it on. Consider making a blog yourself! I’ve written a blog post on how to [get started](/posts/How-to-blog/).
+Others' websites have helped me a lot, so making my own blog is an attempt to pass it on. Consider making a blog yourself! I’ve written a blog post on how to [get started](/posts/how-to-blog/).
